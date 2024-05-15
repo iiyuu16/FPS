@@ -13,17 +13,20 @@ public class M4A1 : MonoBehaviour
     public ParticleSystem muzzleFX;
 
     [Header("Recoil Settings")]
-    public float recoilAmount = 0.1f;
+    public float recoilAmountX = 0.05f; // Recoil amount for x-axis
+    public float recoilAmountY = 0.1f;  // Recoil amount for y-axis
     public float recoilSpeed = 5.0f;
     public float recoilReturnSpeed = 2.0f;
-    public float maxRecoilOffset = 0.3f; // Maximum recoil offset to prevent the gun from moving too far down
+    public float maxRecoilOffsetY = 0.3f; // Maximum vertical recoil offset
 
     private Vector3 originalPosition;
     private Vector3 recoilOffset;
+    public ScreenShake screenShake; // Reference to the ScreenShake script
 
     private void Start()
     {
         originalPosition = transform.localPosition;
+        screenShake = Camera.main.GetComponent<ScreenShake>(); // Get the ScreenShake component from the main camera
     }
 
     private void Update()
@@ -44,9 +47,12 @@ public class M4A1 : MonoBehaviour
             bulletFX.Play();
             muzzleFX.Play();
 
-            // Apply recoil
-            recoilOffset += new Vector3(Random.Range(-recoilAmount, recoilAmount), -recoilAmount, 0);
-            recoilOffset.y = Mathf.Clamp(recoilOffset.y, -maxRecoilOffset, 0); // Clamp the recoil to not exceed maxRecoilOffset
+            // Apply recoil with offsets for both x and y
+            recoilOffset += new Vector3(Random.Range(-recoilAmountX, recoilAmountX), -recoilAmountY, 0);
+            recoilOffset.y = Mathf.Clamp(recoilOffset.y, -maxRecoilOffsetY, 0); // Clamp the vertical recoil to not exceed maxRecoilOffsetY
+
+            // Trigger screen shake
+            screenShake.TriggerShake();
 
             RaycastHit hit;
             if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))

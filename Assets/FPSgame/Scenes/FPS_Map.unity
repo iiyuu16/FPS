@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 0.029152213, g: 0.064445764, b: 0.12695098, a: 1}
+  m_IndirectSpecularColor: {r: 0.029152155, g: 0.06444568, b: 0.12695067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -5563,6 +5563,26 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
   m_PrefabInstance: {fileID: 371200824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1865924665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 677263413734148086, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+  m_PrefabInstance: {fileID: 7962108519974643053}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1865924670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1865924665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 305202c7bb72b864287c4de06e3f4670, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shakeDuration: 0.05
+  shakeMagnitude: 0.1
+  dampingSpeed: 1
 --- !u!1001 &1945325903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6268,13 +6288,36 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2873919266464911244, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+      propertyPath: recoilSpeed
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873919266464911244, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+      propertyPath: screenShake
+      value: 
+      objectReference: {fileID: 1865924670}
+    - target: {fileID: 2873919266464911244, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
       propertyPath: recoilAmount
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873919266464911244, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+      propertyPath: recoilAmountY
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873919266464911244, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+      propertyPath: maxRecoilOffsetY
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2873919266464911244, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+      propertyPath: recoilReturnSpeed
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 677263413734148086, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
+      insertIndex: 1
+      addedObject: {fileID: 1865924670}
   m_SourcePrefab: {fileID: 100100000, guid: b5b68f811a8b5f04289f0b1e25f4710f, type: 3}
 --- !u!4 &8345070698254259360
 Transform:
