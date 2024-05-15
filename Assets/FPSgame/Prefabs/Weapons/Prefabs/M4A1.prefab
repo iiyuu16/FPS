@@ -133,7 +133,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6861224161297276134}
@@ -159,11 +159,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a8402aed75738a4eae23fbac1b38699, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 1.2
+  damage: 32
   range: 75
+  fireRate: 0.12
   fpsCam: {fileID: 0}
   bulletFX: {fileID: 7087332988085022568}
   muzzleFX: {fileID: 9199141739120773146}
+  recoilAmount: 0.1
+  recoilSpeed: 5
+  recoilReturnSpeed: 2
 --- !u!1 &5836183803064680627
 GameObject:
   m_ObjectHideFlags: 0
