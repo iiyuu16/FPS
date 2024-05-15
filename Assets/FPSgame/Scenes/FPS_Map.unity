@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 8900000, guid: 619e305f5165a9946b7f72464e44ca4a, type: 3}
   m_Sun: {fileID: 2114283754330233425}
-  m_IndirectSpecularColor: {r: 0.02525222, g: 0.05498174, b: 0.11085867, a: 1}
+  m_IndirectSpecularColor: {r: 0.029152155, g: 0.06444568, b: 0.12695067, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 7828845}
   - component: {fileID: 7828847}
   - component: {fileID: 7828846}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -253,6 +253,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 15
@@ -316,6 +320,10 @@ PrefabInstance:
     - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_Name
       value: Industrial_Pillar_1A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_RootOrder
@@ -404,6 +412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -467,7 +479,7 @@ GameObject:
   - component: {fileID: 165521924}
   - component: {fileID: 165521926}
   - component: {fileID: 165521925}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -585,7 +597,7 @@ GameObject:
   - component: {fileID: 233512813}
   - component: {fileID: 233512815}
   - component: {fileID: 233512814}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -704,6 +716,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 12
@@ -764,9 +780,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8345070699414287370}
     m_Modifications:
+    - target: {fileID: 163964, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 182142, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 199584, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
       propertyPath: m_Name
       value: Corridor_Connector_1E_Doors (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 199584, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 437172, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
       propertyPath: m_RootOrder
@@ -839,6 +867,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 9
@@ -907,6 +939,10 @@ PrefabInstance:
     - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_Name
       value: Industrial_Pillar_1A
+      objectReference: {fileID: 0}
+    - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_RootOrder
@@ -989,7 +1025,7 @@ GameObject:
   - component: {fileID: 470026398}
   - component: {fileID: 470026400}
   - component: {fileID: 470026399}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1118,6 +1154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 14
@@ -1181,7 +1221,7 @@ GameObject:
   - component: {fileID: 539468002}
   - component: {fileID: 539468004}
   - component: {fileID: 539468003}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1298,7 +1338,7 @@ GameObject:
   m_Component:
   - component: {fileID: 542508512}
   - component: {fileID: 542508513}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Reflection Probe (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1364,7 +1404,7 @@ GameObject:
   - component: {fileID: 543582884}
   - component: {fileID: 543582886}
   - component: {fileID: 543582885}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1483,6 +1523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor_Connector_1A
       objectReference: {fileID: 0}
+    - target: {fileID: 151964, guid: 2f2c5d135938f0343be0510916378c61, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 413272, guid: 2f2c5d135938f0343be0510916378c61, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -1553,6 +1597,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1621,6 +1669,10 @@ PrefabInstance:
     - target: {fileID: 101066, guid: 306265d50b9c2d141b3a5ffd81f29e5c, type: 3}
       propertyPath: m_Name
       value: Corridor_2B(Wide)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101066, guid: 306265d50b9c2d141b3a5ffd81f29e5c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 401778, guid: 306265d50b9c2d141b3a5ffd81f29e5c, type: 3}
       propertyPath: m_RootOrder
@@ -1694,7 +1746,7 @@ GameObject:
   - component: {fileID: 614768023}
   - component: {fileID: 614768025}
   - component: {fileID: 614768024}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1813,6 +1865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 17
@@ -1881,7 +1937,7 @@ GameObject:
   - component: {fileID: 645382447}
   - component: {fileID: 645382449}
   - component: {fileID: 645382448}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1999,7 +2055,7 @@ GameObject:
   - component: {fileID: 654830868}
   - component: {fileID: 654830870}
   - component: {fileID: 654830869}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2128,6 +2184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Support_Pillar_1B
       objectReference: {fileID: 0}
+    - target: {fileID: 125780, guid: 2f48f15ad7eff074ead5e58bdc6cd3ac, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 489484, guid: 2f48f15ad7eff074ead5e58bdc6cd3ac, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -2220,6 +2280,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor_1F (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 127900, guid: 634e73be1d83b2c46874b0d384032962, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 432106, guid: 634e73be1d83b2c46874b0d384032962, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -2285,6 +2349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2349,6 +2417,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -2412,7 +2484,7 @@ GameObject:
   - component: {fileID: 794214473}
   - component: {fileID: 794214475}
   - component: {fileID: 794214474}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2531,6 +2603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor_1B (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 171150, guid: a6fc093a0074d544dbffabf79e98ea0c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 445250, guid: a6fc093a0074d544dbffabf79e98ea0c, type: 3}
       propertyPath: m_RootOrder
       value: 18
@@ -2595,7 +2671,7 @@ GameObject:
   m_Component:
   - component: {fileID: 874605736}
   - component: {fileID: 874605737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Light Probe Group (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2869,6 +2945,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2938,6 +3018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -3001,7 +3085,7 @@ GameObject:
   - component: {fileID: 953206419}
   - component: {fileID: 953206421}
   - component: {fileID: 953206420}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3119,7 +3203,7 @@ GameObject:
   - component: {fileID: 970076479}
   - component: {fileID: 970076481}
   - component: {fileID: 970076480}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3238,6 +3322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor_1F
       objectReference: {fileID: 0}
+    - target: {fileID: 127900, guid: 634e73be1d83b2c46874b0d384032962, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 432106, guid: 634e73be1d83b2c46874b0d384032962, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -3306,7 +3394,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1028513133}
   - component: {fileID: 1028513132}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3372,6 +3460,10 @@ PrefabInstance:
     - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_Name
       value: Industrial_Pillar_1A (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_RootOrder
@@ -3455,6 +3547,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -3529,6 +3625,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -3593,6 +3693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -3656,6 +3760,10 @@ PrefabInstance:
     - target: {fileID: 148778, guid: 439c21de4aff5424da748f7c94ec0dfe, type: 3}
       propertyPath: m_Name
       value: Corridor_1I
+      objectReference: {fileID: 0}
+    - target: {fileID: 148778, guid: 439c21de4aff5424da748f7c94ec0dfe, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 420028, guid: 439c21de4aff5424da748f7c94ec0dfe, type: 3}
       propertyPath: m_RootOrder
@@ -3726,7 +3834,7 @@ GameObject:
   - component: {fileID: 1246257958}
   - component: {fileID: 1246257960}
   - component: {fileID: 1246257959}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3845,6 +3953,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -3908,7 +4020,7 @@ GameObject:
   - component: {fileID: 1351287476}
   - component: {fileID: 1351287478}
   - component: {fileID: 1351287477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4027,6 +4139,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -4095,7 +4211,7 @@ GameObject:
   - component: {fileID: 1433084160}
   - component: {fileID: 1433084162}
   - component: {fileID: 1433084161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4202,6 +4318,120 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1434412458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1434412459}
+  m_Layer: 0
+  m_Name: GroundCheck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1434412459
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434412458}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1482168253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1445823824
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1445823825}
+  - component: {fileID: 1445823827}
+  - component: {fileID: 1445823826}
+  m_Layer: 0
+  m_Name: Capsule
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1445823825
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445823824}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1482168253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1445823826
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445823824}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 998e43dc301990044bdd437e89545793, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1445823827
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1445823824}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!4 &1447803247 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
@@ -4215,9 +4445,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8345070699414287370}
     m_Modifications:
+    - target: {fileID: 163964, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 182142, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 199584, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
       propertyPath: m_Name
       value: Corridor_Connector_1E_Doors
+      objectReference: {fileID: 0}
+    - target: {fileID: 199584, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 437172, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
       propertyPath: m_RootOrder
@@ -4268,6 +4510,89 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00379f7646f0ca84692c5130a26a1177, type: 3}
+--- !u!1 &1482168252
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1482168253}
+  - component: {fileID: 1482168254}
+  - component: {fileID: 1482168255}
+  m_Layer: 0
+  m_Name: FPplayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1482168253
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482168252}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -48.785316, y: 1.591628, z: 15.404463}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1445823825}
+  - {fileID: 1861103491}
+  - {fileID: 1434412459}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!143 &1482168254
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482168252}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.7
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1482168255
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482168252}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90b9ae05dd3de894f8810c2718f5dee8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controller: {fileID: 1482168254}
+  speed: 4
+  gravity: -19.62
+  jumpHeight: 1
+  groundCheck: {fileID: 1434412459}
+  groundDistance: 0.4
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!1001 &1503072111
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4279,6 +4604,10 @@ PrefabInstance:
     - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_Name
       value: Ceiling_Light_1C (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
@@ -4341,7 +4670,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1509994010}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lights
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4393,6 +4722,10 @@ PrefabInstance:
     - target: {fileID: 119654, guid: c4ea240978532f741b7f1a0cb9af9710, type: 3}
       propertyPath: m_Name
       value: Corridor_1H
+      objectReference: {fileID: 0}
+    - target: {fileID: 119654, guid: c4ea240978532f741b7f1a0cb9af9710, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 405476, guid: c4ea240978532f741b7f1a0cb9af9710, type: 3}
       propertyPath: m_RootOrder
@@ -4458,7 +4791,7 @@ GameObject:
   - component: {fileID: 1551803323}
   - component: {fileID: 1551803325}
   - component: {fileID: 1551803324}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4582,6 +4915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Industrial_Pillar_1A (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 163248, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 21b88a4554ef9c34c80f75d8b437a56a, type: 3}
       propertyPath: m_RootOrder
       value: 21
@@ -4659,6 +4996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 16
@@ -4722,7 +5063,7 @@ GameObject:
   - component: {fileID: 1677818763}
   - component: {fileID: 1677818765}
   - component: {fileID: 1677818764}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4845,7 +5186,7 @@ GameObject:
   - component: {fileID: 1707983123}
   - component: {fileID: 1707983125}
   - component: {fileID: 1707983124}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4962,7 +5303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1764214108}
   - component: {fileID: 1764214109}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Reflection Probe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5034,6 +5375,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Corridor_1B
       objectReference: {fileID: 0}
+    - target: {fileID: 171150, guid: a6fc093a0074d544dbffabf79e98ea0c, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 445250, guid: a6fc093a0074d544dbffabf79e98ea0c, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5099,6 +5444,10 @@ PrefabInstance:
     - target: {fileID: 101066, guid: 306265d50b9c2d141b3a5ffd81f29e5c, type: 3}
       propertyPath: m_Name
       value: Corridor_2B(Wide) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 101066, guid: 306265d50b9c2d141b3a5ffd81f29e5c, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 401778, guid: 306265d50b9c2d141b3a5ffd81f29e5c, type: 3}
       propertyPath: m_RootOrder
@@ -5166,6 +5515,158 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
   m_PrefabInstance: {fileID: 371200824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1861103490
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1861103491}
+  - component: {fileID: 1861103495}
+  - component: {fileID: 1861103494}
+  - component: {fileID: 1861103493}
+  - component: {fileID: 1861103492}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1861103491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861103490}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1482168253}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1861103492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861103490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    quality: 3
+    frameInfluence: 0.1
+    jitterScale: 1
+    mipBias: 0
+    varianceClampScale: 0.9
+    contrastAdaptiveSharpening: 0
+--- !u!81 &1861103493
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861103490}
+  m_Enabled: 1
+--- !u!20 &1861103494
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861103490}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!114 &1861103495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861103490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f8effe53b1899048a2a5ce80770bc2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mouseSens: 1
+  playerBody: {fileID: 1482168253}
 --- !u!1001 &1945325903
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5177,6 +5678,10 @@ PrefabInstance:
     - target: {fileID: 151964, guid: 2f2c5d135938f0343be0510916378c61, type: 3}
       propertyPath: m_Name
       value: Corridor_Connector_1A (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151964, guid: 2f2c5d135938f0343be0510916378c61, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 413272, guid: 2f2c5d135938f0343be0510916378c61, type: 3}
       propertyPath: m_RootOrder
@@ -5247,7 +5752,7 @@ GameObject:
   - component: {fileID: 1995107997}
   - component: {fileID: 1995107999}
   - component: {fileID: 1995107998}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Area Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5366,6 +5871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ceiling_Light_1C (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 183970, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 480942, guid: 91a612d162db71343ac88681ee0df5cd, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -5478,7 +5987,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2114283753834967213}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Lighting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5516,7 +6025,7 @@ GameObject:
   - component: {fileID: 2114283754330233426}
   - component: {fileID: 2114283754330233425}
   - component: {fileID: 2114283754330233427}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Directional Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5632,7 +6141,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 53103663806296853}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment_LightProbeAnchor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5648,7 +6157,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1289608055218242592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Primitives
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5682,7 +6191,7 @@ GameObject:
   - component: {fileID: 8345070698254259373}
   - component: {fileID: 8345070698254259374}
   - component: {fileID: 8345070698254259375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5806,7 +6315,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8345070699414287370}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5838,7 +6347,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8379900264020877776}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Greybox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5850,3 +6359,4 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 8345070699414287370}
+  - {fileID: 1482168253}
