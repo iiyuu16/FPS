@@ -6,13 +6,13 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/AlterunaFPS/Scenes/Menu.unity
-    guid: 526747f12f76a244684fbd832912e91b
+    path: Assets/FPSgame/Scenes/Loading.unity
+    guid: 630da30c36eaca44bbab5d7553ae7362
   - enabled: 1
-    path: Assets/AlterunaFPS/Scenes/Offline.unity
-    guid: 96cc2e8b381c93d469710453434839ad
+    path: Assets/FPSgame/Scenes/lobby.unity
+    guid: 4f51fc77717f0d24ebcecb1756e854b9
   - enabled: 1
-    path: Assets/AlterunaFPS/Scenes/Multiplayer.unity
-    guid: d467bb58a331a364da0289e764f6c986
+    path: Assets/FPSgame/Scenes/FPS_Map.unity
+    guid: 707acc8dffb72b144bb1ffbe1c965f3d
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 9e7be553448fa2546aea5752021cbcf7, type: 2}
